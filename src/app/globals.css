@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: #1D1E1C;
+  --color-white-dark: #F4F4F4;
+  --color-orange: #FB4C2F;
+  --color-gray: #767776;
+  --color-gray-light: #D0D0CF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 180px;
+}

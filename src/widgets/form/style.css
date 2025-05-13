@@ -1,0 +1,9 @@
+@media screen and (max-width: 490px) {
+    .bottom__form {
+      flex-wrap: wrap;
+    }
+
+    .qustions__form {
+      display: none;
+    }
+}

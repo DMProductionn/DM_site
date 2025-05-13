@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 1357px) {
+  .items__services {
+    order: 1;
+    width: 100%;
+  }
+
+  .text__services {
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+    max-width: 100%;
+  }
+}
