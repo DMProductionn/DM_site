@@ -1,6 +1,6 @@
 'use client';
 
-import { MenuMobile, ThemeToggle } from '@/components';
+import { MenuMobile } from '@/components';
 import { Container } from '@/shared/ui';
 import { Menu } from '@/components';
 import Link from 'next/link';
