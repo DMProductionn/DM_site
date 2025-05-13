@@ -6,7 +6,7 @@ import { cases } from './cases.constant';
 type CasesProps = {
   margin_top?: string;
 }
-
+ 
 export const Cases: React.FC<CasesProps> = ({ margin_top }) => {
   return (
     <section className={margin_top}>

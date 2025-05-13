@@ -57,7 +57,7 @@ export const ProductCard: React.FC<ProductProps> = ({
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="h-full flex justify-center max-h-[720px] max-w-[660px] overflow-hidden">
+          className="h-full rounded-[20px] flex justify-center max-h-[720px] max-w-[660px] overflow-hidden">
           <Image className="h-full object-cover" width={630} height={0} src={image} alt="product" />
         </motion.div>
       </div>
