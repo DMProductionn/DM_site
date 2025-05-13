@@ -21,9 +21,9 @@ export const MainSection: React.FC = () => {
         />
       </div>
       <section className="relative">
-        <div className="h-[400px]">
+        <div className="h-[200px] sm:h-[400px]">
           <TypeAnimation
-            className="uppercase text-[80px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[8px]"
+            className="uppercase text-[50px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[5px]"
             sequence={['Lorem Ipsum', 100, 'Lorem Ipsum\nDolor', 300]}
             wrapper="h1"
             cursor={false}

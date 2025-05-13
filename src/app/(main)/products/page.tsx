@@ -11,7 +11,7 @@ const Products: React.FC = () => {
       <div className="flex justify-between relative">
         <div className="max-w-[1300px] w-full invisible" />
         <TypeAnimation
-          className="uppercase text-[70px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[8px]"
+          className="uppercase text-[70px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[5px]"
           sequence={['Продукты', 300]}
           wrapper="h1"
           cursor={false}
@@ -24,7 +24,7 @@ const Products: React.FC = () => {
         </BorderDiv>
       </div>
 
-      <Container className="mt-[200px] 2xl:mt-[100px]">
+      <Container className="mt-[150px] 2xl:mt-[100px]">
         <p className="text-[20px] font-bold mb-[20px]">Lorem ipsum</p>
         <p className="text-[20px]">
           Lorem ipsum dolor sit <br />
@@ -33,7 +33,7 @@ const Products: React.FC = () => {
         </p>
       </Container>
 
-      <OurProducts />
+      <OurProducts margin_top='mt-[100px]' />
     </AnimationPage>
   );
 };

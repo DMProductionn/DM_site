@@ -18,7 +18,7 @@ const Contacts: React.FC = () => {
             cursor={false}
             speed={40}
           />
-          <div className="relative mt-[300px] pl-[50px] pt-[80px] pr-[60px] min-h-[650px] h-full">
+          <div className="relative mt-[150px] md:mt-[300px] pl-[50px] pt-[80px] pr-[60px] min-h-[650px] h-full">
             <motion.div
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}

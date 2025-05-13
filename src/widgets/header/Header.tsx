@@ -50,10 +50,10 @@ export const Header: React.FC = () => {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -100, opacity: 0 }}
             transition={{ type: 'spring', damping: 20, stiffness: 300 }}
-            className="py-3 h-[70px] w-full flex bg-white opacity-30 border-gray-light border-b fixed top-0 z-[50]">
-            <Container className="flex justify-between items-center h-full ">
+            className="py-3 px-3 lg:pr-0 h-[70px] w-full flex bg-white opacity-30 border-gray-light border-b fixed top-0 z-[50]">
+            <Container className="flex justify-between items-center h-full px-0">
               <div className="flex gap-10 text-[12px] items-center font-medium">
-                <Link href="/">
+                <Link onClick={() => setActiveMenu(false)} href="/">
                   <Logo />
                 </Link>
                 <p className="uppercase">Г. Пермь</p>

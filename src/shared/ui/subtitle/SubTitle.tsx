@@ -20,7 +20,7 @@ export const SubTitle: React.FC<PropsWithChildren<SubTitleProps>> = ({
       viewport={{ once: true }}>
       <HTag
         className={`${cn(
-          'uppercase text-[80px] mb-[40px] leading-[100%] font-medium',
+          'uppercase text-[65px] sm:text-[80px] mb-[40px] leading-[100%] font-medium',
           className,
         )}`}>
         {children}

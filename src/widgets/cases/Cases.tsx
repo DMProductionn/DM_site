@@ -11,7 +11,7 @@ export const Cases: React.FC<CasesProps> = ({ margin_top }) => {
   return (
     <section className={margin_top}>
       <Container>
-        <div className="flex flex-col h-full gap-[20px]">
+        <div className="flex flex-col h-full gap-[100px]">
           {cases.map((item) => (
             <CaseCard {...item} key={item.id} />
           ))}

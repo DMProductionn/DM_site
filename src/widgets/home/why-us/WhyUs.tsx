@@ -44,7 +44,7 @@ export const WhyUs: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="border-r-[2px] border-t-[2px] py-[40px] h-full max-h-[270px] border-black relative w-full  [border-radius:0px_138px_109px_50px/2px_101px_0px_25px]">
-            <p className="text-[36px] sm:text-[100px] font-medium leading-[100%] uppercase">
+            <p className="text-[36px] sm:text-[90px] font-medium leading-[100%] uppercase">
             Lorem ipsum
             </p>
             <p className="text-[14px] sm:text-[25px] mt-[12px]">
@@ -74,9 +74,9 @@ export const WhyUs: React.FC = () => {
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="border-l-[2px] border-t-[2px] text-end py-[40px] h-full max-h-[270px] border-black relative w-full  [border-radius:138px_0px_109px_159px/150px_0px_0px_0px]">
-            <p className="text-[36px] sm:text-[100px] font-medium leading-[100%] uppercase">Lorem ipsum</p>
-            <p className="text-[14px] sm:text-[25px] mt-[12px]">
+            className="border-l-[2px] border-t-[2px] sm:my-[20px] text-end py-[40px] h-full max-h-[270px] border-black relative w-full  [border-radius:138px_0px_109px_159px/150px_0px_0px_0px]">
+            <p className="text-[36px] sm:text-[90px] font-medium leading-[100%] uppercase">Lorem ipsum</p>
+            <p className="text-[14px] sm:text-[25px] my-[20px]">
               &lt;p&gt;Lorem ipsum dolor sit <br />amet consectetur Lorem ipsum dolor sit. &lt;/p&gt;
             </p>
           </motion.div>
@@ -104,7 +104,7 @@ export const WhyUs: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="relative w-full pt-[1px]">
-            <p className="text-[36px] sm:text-[100px] font-medium leading-[100%] uppercase mt-[20px]">Lorem ipsum</p>
+            <p className="text-[36px] sm:text-[90px] font-medium leading-[100%] uppercase mt-[20px]">Lorem ipsum</p>
             <p className="text-[14px] sm:text-[25px] mt-[12px]">
               &lt;p&gt;Lorem ipsum dolor sit <br />amet consectetur Lorem ipsum dolor sit. &lt;/p&gt;
             </p>

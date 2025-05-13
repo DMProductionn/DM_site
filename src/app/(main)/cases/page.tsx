@@ -13,7 +13,7 @@ const CasesPage: React.FC = () => {
       <div className="flex justify-between relative">
         <div className="max-w-[1300px] w-full invisible" />
         <TypeAnimation
-          className="uppercase text-[70px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[8px]"
+          className="uppercase text-[70px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[5px]"
           sequence={['Кейсы', 300]}
           wrapper="h1"
           cursor={false}
@@ -40,7 +40,6 @@ const CasesPage: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="absolute h-full w-[2px] bottom-0 right-0 bg-black"
           />
-          <p className="text-[20px] font-bold mb-[20px]">Текст</p>
           <p className="text-[20px]">
             Lorem ipsum dolor sit <br />
             amet consectetur Lorem ipsum dolor sit.Lorem ipsum dolor sit <br />
@@ -49,7 +48,7 @@ const CasesPage: React.FC = () => {
           </p>
         </div>
 
-        <div className='hidden xl:flex'>
+        <div className='hidden xl:block'>
           <Text className="text-[170px] font-medium leading-[90%]">20+</Text>
           <p className="text-[20px]">Lorem ipsum</p>
           <Button className="mt-[35px]">Связаться с нами</Button>
@@ -63,7 +62,7 @@ const CasesPage: React.FC = () => {
         </motion.button>
       </div>
 
-      <Cases margin_top="mt-[250px]" />
+      <Cases margin_top="mt-[200px]" />
     </AnimationPage>
   );
 };

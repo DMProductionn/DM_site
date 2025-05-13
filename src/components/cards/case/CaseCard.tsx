@@ -7,7 +7,7 @@ export const CaseCard: React.FC<CaseProps> = ({ title, description, skills, imag
   const goals = description.split('—').filter((item) => item.trim() !== '');
 
   return (
-    <motion.div className="bg-white-dark rounded-[20px] py-[20px] pl-[40px] pr-[20px] h-full flex flex-wrap gap-[40px] sticky top-0">
+    <motion.div className="bg-white-dark rounded-[20px] py-[20px] pl-[40px] pr-[20px] h-full flex flex-wrap gap-[40px] sticky -top-[360px] sm:-top-[380px] md:-top-[590px] xl:-top-[120px]">
       <div className="flex justify-center xl:justify-start h-full w-full  xl:max-w-[660px]">
         <motion.div
           initial={{ opacity: 0, x: 80 }}

@@ -46,7 +46,7 @@ export const Services: React.FC<ServicesProps> = ({ margin_top }) => {
           </AnimatePresence>
 
           <div className="uppercase text-end  items__services">
-            <Text className="text-[50px] leading-[100%] mb-[20px]">РАЗРАБОТКА</Text>
+            <Text className="text-[50px] leading-[100%] mb-[40px]">РАЗРАБОТКА</Text>
             <div className="flex flex-col">
               <motion.div
                 className={`mb-[10px] hover:cursor-default`}
@@ -55,7 +55,7 @@ export const Services: React.FC<ServicesProps> = ({ margin_top }) => {
                   filter: activeTab !== 0 ? 'blur(4px)' : 'blur(0px)',
                   color: activeTab !== 0 ? '#D0D0CF' : '#1D1E1C',
                 }}>
-                <span className="text-[35px]">(01)</span>
+                <span className="text-[35px] mt-[20px]">(01)</span>
                 <p className="text-[50px] sm:text-[100px] xl:text-[130px] leading-[95%]">ПРОГРАММНАЯ</p>
               </motion.div>
               <motion.div

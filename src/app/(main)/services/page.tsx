@@ -15,7 +15,7 @@ const ServicesPage: React.FC = () => {
       <div className="flex flex-col xl:flex-row justify-between relative">
         <div className="max-w-[1300px] w-full invisible" />
         <TypeAnimation
-          className="uppercase text-[70px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[8px]"
+          className="uppercase text-[70px] sm:text-[100px] md:text-[120px] lg:text-[150px] xl:text-[200px] leading-[100%] font-medium max-w-[1400px] w-full absolute -left-[5px]"
           sequence={['Услуги', 300]}
           wrapper="h1"
           cursor={false}
@@ -23,9 +23,9 @@ const ServicesPage: React.FC = () => {
         />
 
         <BorderDiv
-          className="mt-[300px] xl:mt-0
+          className="mt-[250px] sm:mt-[300px] xl:mt-[0px]
   justify-start xl:justify-normal
-  p-[20px] xl:py-[80px] xl:px-[60px]
+  p-[40px] xl:pb-[0px] xl:py-[80px] xl:px-[60px]
   text-start xl:text-inherit
   min-h-auto xl:min-h-0
   pb-[60px]

@@ -12,7 +12,7 @@ export const OurProducts: React.FC<OurProductsProps> = ({ margin_top = 'mt-[180p
   return (
     <section className={margin_top}>
       <Container>
-        <div className="flex flex-col h-full gap-[20px]">
+        <div className="flex flex-col h-full gap-[100px]">
           {products.map((product) => (
             <ProductCard {...product} key={product.id} />
           ))}
