@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         <MainSection />
 
         <Container>
-          <SubTitle className='mt-[500px]' size="h2">Наши продукты</SubTitle>
+          <SubTitle size="h2">Наши продукты</SubTitle>
         </Container>
         
         <OurProducts margin_top="mt-0" /> 
