@@ -7,20 +7,19 @@ export const CaseCard: React.FC<CaseProps> = ({ title, description, skills, imag
   const goals = description.split('—').filter((item) => item.trim() !== '');
 
   return (
-    <motion.div className="bg-white-dark rounded-[20px] py-[20px] pl-[40px] pr-[20px] h-full flex flex-wrap gap-[40px] sticky -top-[360px] sm:-top-[380px] md:-top-[590px] xl:-top-[120px]">
-      <div className="flex justify-center xl:justify-start h-full w-full  xl:max-w-[660px]">
-        <motion.div
-          initial={{ opacity: 0, x: 80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
-          className="h-full rounded-[20px] flex justify-center max-h-[720px] max-w-[660px] overflow-hidden">
-          <Image className="h-full object-cover" width={630} height={0} src={image} alt="product" />
-        </motion.div>
+    <motion.div className="bg-white-dark rounded-[20px] py-[20px] px-[40px] h-full flex flex-wrap gap-[40px] sticky -top-[360px] sm:-top-[380px] md:-top-[590px] xl:-top-[120px]">
+      <div className="h-full rounded-[20px] flex justify-center w-full max-h-[720px] overflow-hidden">
+        <Image
+          className="w-full h-full object-cover"
+          width={620}
+          height={720}
+          src={image}
+          alt="product"
+        />
       </div>
 
       <div className="flex flex-col relative justify-between max-w-[500px] w-full min-h-[100%]">
-        <div className='h-full'>
+        <div className="h-full">
           <Text className="text-[36px] font-bold mb-[35px] leading-[110%]">{title}</Text>
           <Text className="text-[20px]">Цели проекта:</Text>
           <Text className="text-[20px] max-w-[500px]">
