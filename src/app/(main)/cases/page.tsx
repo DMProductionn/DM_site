@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { Button, Text } from '@/shared/ui';
 import Image from 'next/image';
-import { Cases } from '@/widgets';
+import { OurProducts } from '@/widgets';
 
 const CasesPage: React.FC = () => {
   return (
@@ -62,7 +62,7 @@ const CasesPage: React.FC = () => {
         </motion.button>
       </div>
 
-      <Cases margin_top="mt-[200px]" />
+      <OurProducts margin_top="mt-[200px]" />
     </AnimationPage>
   );
 };

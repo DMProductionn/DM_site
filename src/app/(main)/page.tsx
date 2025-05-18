@@ -2,7 +2,7 @@
 
 import { AnimationPage } from '@/components';
 import { Container, SubTitle } from '@/shared/ui';
-import { Cases, Form, OurProducts, Services } from '@/widgets';
+import { Form, OurProducts, Services } from '@/widgets';
 import { MainSection, WhyUs } from '@/widgets/home';
 
 const Home: React.FC = () => {
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
           <SubTitle size="h4">Кейсы</SubTitle>
         </Container>
 
-        <Cases margin_top="mt-0" />
+        <OurProducts margin_top="mt-0" />
         <WhyUs />
         <Form />
       </AnimationPage>
