@@ -1,7 +1,7 @@
 export const SERVICES = [
   {
     description:
-      'llorem ipsum dolor sit amet consectetur dima adipisicing elit. Quisquam, quae faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.',
+      'llorem 123 ipsum dolor sit amet consectetur dima adipisicing elit. Quisquam, quae faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.',
     clients: ['Lorem ipsum', 'Lorem ipsum'],
   },
   {
