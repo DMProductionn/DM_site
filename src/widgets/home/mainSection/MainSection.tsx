@@ -32,7 +32,7 @@ export const MainSection: React.FC = () => {
         </div>
         <Container className="mt-[40px] flex justify-between mb-[20px]">
           <p className="text-[25px]">
-            &lt;p&gt;Lorem ipsum dolor sit amet. <br /> In id cursus mi pretium tellus duis convallis..
+            &lt;p&gt;Lorem ipsum dolor dima amet. <br /> In id cursus mi pretium tellus duis convallis..
             &lt;/p&gt;
           </p>
         </Container>
